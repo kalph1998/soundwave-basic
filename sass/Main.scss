@@ -1,0 +1,67 @@
+@import "./index.scss";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #73ff9a;
+  font-size: 1.2rem;
+  color: black;
+  min-height: 100vh;
+}
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 0 40px;
+  flex-grow: 1;
+}
+
+.main-nav a {
+  padding: 1rem;
+  &:hover {
+    color: #484848;
+  }
+}
+.main-header {
+  height: 100px;
+}
+.title {
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+.btn {
+  color: white;
+  background-color: #5c2a9d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
+.footer {
+  background-color: #5c2a9d;
+  height: 70px;
+
+  bottom: 0;
+  color: white;
+}
+
+.footer-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav a:hover {
+  color: #a1a1a1;
+}
+.footer-nav a {
+  padding: 1rem;
+}
