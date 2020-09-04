@@ -68,6 +68,12 @@
   background: rgba(188, 58, 128, 0.28);
 }
 
+@media (max-width: 600px) {
+  .home-page-circle-2 {
+    display: none;
+  }
+}
+
 .home-page-circle-3 {
   position: absolute;
   width: 45vw;
@@ -86,5 +92,11 @@
   border-radius: 50%;
   background: rgba(92, 42, 157, 0.32);
   transform: translate(40%, 50%);
+}
+
+@media (min-width: 600px) {
+  .brand-name {
+    display: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */

@@ -51,8 +51,8 @@
 
 @media (max-width: 800px) {
   .join-form {
-    margin-bottom: 2rem;
-    max-width: 80%;
+    margin: 2rem 0;
+    max-width: inherit;
     width: 80vw;
   }
 }
