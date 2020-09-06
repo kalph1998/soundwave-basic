@@ -94,7 +94,7 @@
   transform: translate(40%, 50%);
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .brand-name {
     display: none;
   }
@@ -184,12 +184,6 @@ body {
 
 .footer-nav a {
   padding: 1rem;
-}
-
-@media (max-width: 600px) {
-  .brand-name {
-    display: none;
-  }
 }
 
 .footer {
